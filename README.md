@@ -57,10 +57,9 @@ python eval.py --cuda
   - No batch normalization is used in this implementation.
   - Performance in PSNR on Set5 
   
-| Scale        | DRRN_B1U25 Paper         | DRRN_B1U25 PyTorch|
-| ------------- |:-------------:| -----:|
-| x2      | 37.74      | 37.66 |
-| x3      | 34.03      | 33.98|
-| x4      | 31.68      | 31.72 |
-
+| Scale   | DRRN_B1U25 Paper | DRRN_B1U25 PyTorch|
+| -------:| ----------------:| -----------------:|
+| x2      | 37.74            | 37.66             |
+| x3      | 34.03            | 33.98             |
+| x4      | 31.68            | 31.72             |
 
