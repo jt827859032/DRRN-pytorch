@@ -51,7 +51,7 @@ python eval.py --cuda
   - the training data is generated with Matlab Bicubic Interplotation, please refer [Code for Data Generation](/data/generate_trainingset_x234.m) for creating training files.
   
 ### Performance
-  - We provide a ***rough*** pretrained DRRN_B1U25 model trained on [291](/data/Train_291) images with data augmentation. For the DRRN_B1U9 implementation, you can manually modify the number of layers [here](/drrn.py#L26:18)
+  - We provide a ***rough*** pretrained DRRN_B1U25 [model](/model) trained on [291](/data/Train_291) images with data augmentation. The mdoel can achive a better performance with a smart optimization strategy. For the DRRN_B1U9 implementation, you can manually modify the number of recursive blocks [here](/drrn.py#L26:18).
   - The same adjustable gradient clipping's implementation as original paper.
   - No bias is used in this implementation. The same adjustable gradient clipping's implementation as original paper.
   - No batch normalization is used in this implementation.
