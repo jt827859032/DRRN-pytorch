@@ -46,3 +46,21 @@ An example of training usage is shown as follows:
 ```
 python eval.py --cuda
 ```
+
+### Prepare Training dataset
+  - the training data is generated with Matlab Bicubic Interplotation, please refer [Code for Data Generation](/data/generate_trainingset_x234.m) for creating training files.
+  
+### Performance
+  - We provide a ***rough*** pretrained DRRN_B1U25 model trained on [291](/data/Train_291) images with data augmentation. For the DRRN_B1U9 implementation, you can manually modify the number of layers [here](/drrn.py#L26:18)
+  - The same adjustable gradient clipping's implementation as original paper.
+  - No bias is used in this implementation. The same adjustable gradient clipping's implementation as original paper.
+  - No batch normalization is used in this implementation.
+  - Performance in PSNR on Set5 
+  
+| Scale        | DRRN_B1U25 Paper         | DRRN_B1U25 PyTorch|
+| ------------- |:-------------:| -----:|
+| x2      | 37.74      | 37.66 |
+| x3      | 34.03      | 33.98|
+| x4      | 31.68      | 31.72 |
+
+
