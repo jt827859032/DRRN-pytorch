@@ -1,7 +1,7 @@
 # DRRN-pytorch
 This is an unoffical implementation of "Deep Recursive Residual Network for Super Resolution (DRRN)" , CVPR 2017 in Pytorch. [[Paper]](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) 
 
-You can also get the offical implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
+You can also get the offical Caffe implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
 
 The DRRN implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
 
