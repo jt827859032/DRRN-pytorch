@@ -53,7 +53,7 @@ python eval.py --cuda
 ### Performance
   - We provide a ***rough*** pretrained DRRN_B1U25 [model](/model) trained on [291](/data/Train_291) images with data augmentation. The mdoel can achive a better performance with a smart optimization strategy. For the DRRN_B1U9 implementation, you can manually modify the number of recursive blocks [here](/drrn.py#L26:18).
   - The same adjustable gradient clipping's implementation as original paper.
-  - No bias is used in this implementation. The same adjustable gradient clipping's implementation as original paper.
+  - No bias is used in this implementation.
   - No batch normalization is used in this implementation.
   - Performance in PSNR on Set5 
   
