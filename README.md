@@ -19,10 +19,10 @@ optional arguments:
   --batchSize           Training batch size
   --nEpochs             Number of epochs to train for
   --lr                  Learning rate. Default=0.1
-  --step                Learning rate decay, Default: n=10 epochs
+  --step                Learning rate decay, Default: n=5 epochs
   --cuda                Use cuda?
   --resume              Path to checkpoint
-  --clip                Clipping Gradients. Default=0.4
+  --clip                Clipping Gradients. Default=0.01
   --threads             Number of threads for data loader to use Default=1
   --momentum            Momentum, Default: 0.9
   --weight-decay        Weight decay, Default: 1e-4
