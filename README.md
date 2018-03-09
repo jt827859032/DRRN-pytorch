@@ -1,7 +1,7 @@
 # DRRN-pytorch
-This is an unoffical implementation of "Deep Recursive Residual Network for Super Resolution (DRRN)" , CVPR 2017 in Pytorch. [[Paper]](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) 
+This is an unofficial implementation of "Deep Recursive Residual Network for Super Resolution (DRRN)", CVPR 2017 in Pytorch. [[Paper]](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf) 
 
-You can get the offical Caffe implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
+You can get the official Caffe implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
 
 This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
 
@@ -48,10 +48,10 @@ python eval.py --cuda
 ```
 
 ### Prepare Training dataset
-  - the training data is generated with Matlab Bicubic Interplotation, please refer [Code for Data Generation](/data/generate_trainingset_x234.m) for creating training files.
+  - the training data is generated with Matlab Bicubic Interpolation, please refer [Code for Data Generation](/data/generate_trainingset_x234.m) for creating training files.
   
 ### Performance
-  - We provide a ***rough*** pretrained DRRN_B1U25 [model](/model) trained on [291](/data/Train_291) images with data augmentation. The mdoel can achive a better performance with a smart optimization strategy. For the DRRN_B1U9 implementation, you can manually modify the number of recursive blocks [here](/drrn.py#L26:18).
+  - We provide a ***rough*** pre-trained DRRN_B1U25 [model](/model) trained on [291](/data/Train_291) images with data augmentation. The model can achieve a better performance with a smart optimization strategy. For the DRRN_B1U9 implementation, you can manually modify the number of recursive blocks [here](/drrn.py#L26:18).
   - The same adjustable gradient clipping's implementation as original paper.
   - No bias is used in this implementation.
   - No batch normalization is used in this implementation.
