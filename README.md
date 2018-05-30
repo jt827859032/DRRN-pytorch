@@ -3,8 +3,6 @@ This is an unofficial implementation of "Deep Recursive Residual Network for Sup
 
 You can get the official Caffe implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
 
-This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
-
 ## Usage
 ### Training
 ```
