@@ -52,7 +52,7 @@ for scale in scales:
 
 			im_input = im_b_y/255.
 
-			im_input = Variable(torch.from_numpy(im_input).float()).view(1, -1, im_input.shape[0], im_input.shape[1])
+			im_input = Variable(torch.from_numpy(im_input).float(), volatile=True).view(1, -1, im_input.shape[0], im_input.shape[1])
 
 			if cuda:
 				model = model.cuda()
